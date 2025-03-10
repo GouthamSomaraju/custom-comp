@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Data from './custom.jsx';
+import Card from './card.jsx';
+import CardDetails from './Task/data.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Data /> */}
+    {/* <Card /> */}
+    <CardDetails />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
