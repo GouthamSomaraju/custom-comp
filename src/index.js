@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Data from './custom.jsx';
 import Card from './card.jsx';
@@ -13,7 +12,6 @@ root.render(
     {/* <Data /> */}
     {/* <Card /> */}
     <CardDetails />
-    {/* <App /> */}
   </React.StrictMode>
 );
 
