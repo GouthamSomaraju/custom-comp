@@ -6,7 +6,7 @@ let Card=()=>{
         <div>
             <h1>{data.name}</h1>
             <h1>{data.city}</h1>
-            <p>{data.age}</p>
+            <p>{data.age}</p> 
         </div>
     )
 }
